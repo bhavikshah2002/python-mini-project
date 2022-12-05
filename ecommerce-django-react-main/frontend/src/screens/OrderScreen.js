@@ -241,7 +241,7 @@ function OrderScreen({ history, match }) {
                 </Row>
               </ListGroup.Item>
 
-              {!order.isPaid && (
+              {/* {!order.isPaid && (
                 <ListGroup.Item>
                   {loadingPay && <Loader />}
                   {!sdkReady ? (
@@ -253,7 +253,7 @@ function OrderScreen({ history, match }) {
                     />
                   )}
                 </ListGroup.Item>
-              )}
+              )} */}
             </ListGroup>
 
             {loadingDeliver && <Loader />}

@@ -46,20 +46,10 @@ function PaymentScreen({ history }) {
 
       <Form onSubmit={submitHandler}>
         <Form.Group>
-          <Form.Label as="legend">Select Method</Form.Label>
-          <Col>
-            <Form.Check
-              type="radio"
-              label="PayPal or Credit Card"
-              id="paypal"
-              name="paymentMethod"
-              checked
-              onChange={(e) => setPaymentMethod(e.target.value)}
-            ></Form.Check>
-          </Col>
+          <Form.Label as="legend">Click to Confrim Checkout</Form.Label>
         </Form.Group>
         <Button type="submit" variant="primary" className="my-3">
-          Continue
+          Proceed to Pay
         </Button>
       </Form>
     </FormContainer>

@@ -42,7 +42,7 @@ function ShippingScreen({ history }) {
     );
 
     // PUSHING USER TO PAYMENTS PAGE AFTER SAVING ADDRESS
-    history.push("./payment");
+    history.push("/payments");
   };
 
   return (
@@ -96,7 +96,7 @@ function ShippingScreen({ history }) {
         </Form.Group>
 
         <Button className="my-3" type="submit" variant="primary">
-          Continue
+          Continue To Place Order
         </Button>
       </Form>
     </FormContainer>
